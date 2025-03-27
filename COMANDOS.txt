@@ -6,6 +6,18 @@ git config --global user.email "email@email.com"
 git config --global user.name "nome autor"
 configura nome global 
 
+git add "nome do arquivo"
+adiciona o arquivo para staged, agora o arquivo está pronto para ser commitado 
+
+git add . 
+adiciona todo os arquivos alterados para staged, agora os arquivos estão prontos para serem commitados
+
+git restore --staged nome arquivo
+remove os arquivos da area de preparação
+
+git commit -m "Mensagem commit"
+commita os arquivos em staged e agora os arquivos são rastreados pelo git 
+
 git checkout -b "nome nova branch"
 nova branch 
 
@@ -15,6 +27,9 @@ troca para a branch selecionado
 git push
 envia as alterações para repositório remoto 
 
+git push --set-upstream origin
+envia nova branch local que ainda não está no repositório remoto 
+
 git pull 
 traz as alterações do repositório remoto 
 
@@ -23,7 +38,6 @@ baixa as alterações do repositório remoto sem alterar o repositório local
 
 git branch 
 lista as branchs do repositório 
-
 
 
 
