@@ -1,0 +1,29 @@
+
+
+git config --global user.email "email@email.com"
+ configura o email global 
+
+git config --global user.name "nome autor"
+configura nome global 
+
+git checkout -b "nome nova branch"
+nova branch 
+
+git checkout "nome branch" 
+troca para a branch selecionado 
+
+git push
+envia as alterações para repositório remoto 
+
+git pull 
+traz as alterações do repositório remoto 
+
+git fetch 
+baixa as alterações do repositório remoto sem alterar o repositório local
+
+git branch 
+lista as branchs do repositório 
+
+
+
+
