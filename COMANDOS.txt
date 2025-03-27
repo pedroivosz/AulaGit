@@ -39,5 +39,7 @@ baixa as alterações do repositório remoto sem alterar o repositório local
 git branch 
 lista as branchs do repositório 
 
+git merge NomeBranch
+mergea a branch selecionada na branch atual.
 
 
